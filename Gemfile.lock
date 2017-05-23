@@ -23,6 +23,8 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    jekyll-youtube (1.0.0)
+      jekyll
     kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.8)
@@ -31,6 +33,10 @@ GEM
     mercenary (0.3.6)
     minima (2.1.1)
       jekyll (~> 3.3)
+    octopress-code-highlighter (4.3.0)
+      jekyll (~> 3.0)
+    octopress-codeblock (1.0.5)
+      octopress-code-highlighter (~> 4.2)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -47,7 +53,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
+  jekyll-youtube
   minima (~> 2.0)
+  octopress-codeblock
   tzinfo-data
 
 BUNDLED WITH
